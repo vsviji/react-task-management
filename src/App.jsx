@@ -21,7 +21,7 @@
           
           <Routes>
             {/* Empty home */}
-            <Route path="/" element={<div></div>} />
+            <Route path="/" element={<Dashboard />} />
             
             {/* Now dashboard only shows when clicked */}
             <Route path="/dashboard" element={<Dashboard />} />
